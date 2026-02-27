@@ -11,17 +11,22 @@ Practice SQL filtering using `WHERE`, `NOT`, and `LIKE` operators on the `movies
 ```sql
 SELECT * FROM movies
 WHERE title LIKE 'Toy Story%';
+```
 2️⃣ Find all the movies directed by John Lasseter
+```
 
 SELECT * FROM movies
 WHERE director = 'John Lasseter';
+```
 
 3️⃣ Find all the movies (and director) not directed by John Lasseter
+```
 
 SELECT title, director FROM movies
 WHERE director != 'John Lasseter';
-
+```
 4️⃣ Find all the WALL-* movies
+```
 
 SELECT * FROM movies
 WHERE title LIKE 'WALL-%';
