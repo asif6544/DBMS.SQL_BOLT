@@ -1,5 +1,16 @@
-1️⃣ Find the title of each film
-SELECT title FROM Film;
+# SQL Exercise 1 – Basic SELECT Queries
+
+## Objective
+Practice retrieving specific columns and all data from the `movies` table.
+
+---
+
+## Queries
+
+1️⃣ Find the title of each film  
+```sql
+SELECT title FROM movies;
+
 2️⃣ Find the director of each film
 SELECT director FROM Film;
 3️⃣ Find the title and director of each film
