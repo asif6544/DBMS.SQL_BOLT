@@ -10,7 +10,7 @@ A collection of SQL scripts, exercises, and examples inspired by **SQLBolt** to 
 - Compatible with MySQL, PostgreSQL, and SQLite
 
 ## 📂 Project Structure
-
+~~~
 dbms.sql_bolt/
 │
 ├── README.md          # Project documentation
@@ -18,7 +18,7 @@ dbms.sql_bolt/
 ├── data.sql           # Sample data insertion script
 ├── exercises.sql      # Practice queries
 └── solutions.sql      # Suggested solutions
-
+~~~
 ## 🛠️ Requirements
 - **Database Engine**: MySQL / PostgreSQL / SQLite
 - **SQL Client**: CLI or GUI (e.g., DBeaver, MySQL Workbench, pgAdmin)
